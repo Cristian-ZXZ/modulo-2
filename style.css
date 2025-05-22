@@ -1,20 +1,6 @@
-/* Estilos generales */
 body {
-  text-align: center;
-  background-color: #57d8ff;
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-}
-
-/* Tabla de hoja de vida */
-.table-container {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 table {
@@ -22,35 +8,39 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
-  border: 1px solid #ddd;
+td, th {
+  vertical-align: top;
   padding: 10px;
-  text-align: left;
 }
 
-th {
-  background-color: #f0f0f0;
-  font-weight: bold;
+.left {
+  background-color: #111;
+  color: white;
+  width: 35%;
 }
 
-td {
-  background-color: #fff;
+.right {
+  background-color: white;
+  color: black;
+  width: 65%;
 }
 
-img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Estilos para la tabla */
-.table-title {
-  font-size: 24px;
-  font-weight: bold;
+.photo {
   text-align: center;
-  padding: 10px;
-  background-color: #f0f0f0;
+}
+
+.photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.bold {
+  font-weight: bold;
 }
